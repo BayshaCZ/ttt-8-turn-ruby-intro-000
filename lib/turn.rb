@@ -15,8 +15,8 @@ def turn(board)
     move (board, index, token = "X")
   else
     turn(board)
-  end
 =end
+  end
 end
 
 def input_to_index(input)
